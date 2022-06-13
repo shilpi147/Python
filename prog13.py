@@ -1,0 +1,9 @@
+d={"one":45}
+print(type(d))
+d["one"]=54
+d["two"]=545
+print(d["one"])
+print(d)
+print(d.keys())
+print(d.values())
+print(d.items())
